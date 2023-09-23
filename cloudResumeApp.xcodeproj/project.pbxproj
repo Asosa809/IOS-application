@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		800664D32ABBD20500368EFF /* cloudResumeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800664D22ABBD20500368EFF /* cloudResumeAppApp.swift */; };
+		800664D52ABBD20500368EFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800664D42ABBD20500368EFF /* ContentView.swift */; };
+		800664D72ABBD20900368EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800664D62ABBD20900368EFF /* Assets.xcassets */; };
+		800664DA2ABBD20900368EFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800664D92ABBD20900368EFF /* Preview Assets.xcassets */; };
+		800664E42ABBD20900368EFF /* cloudResumeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800664E32ABBD20900368EFF /* cloudResumeAppTests.swift */; };
+		800664EE2ABBD20900368EFF /* cloudResumeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800664ED2ABBD20900368EFF /* cloudResumeAppUITests.swift */; };
+		800664F02ABBD20900368EFF /* cloudResumeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800664EF2ABBD20900368EFF /* cloudResumeAppUITestsLaunchTests.swift */; };
+		800664FD2ABBD24200368EFF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800664FC2ABBD24200368EFF /* Note.swift */; };
+		800664FF2ABBD26000368EFF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800664FE2ABBD26000368EFF /* UserData.swift */; };
+		800665022ABBD84000368EFF /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 800665012ABBD84000368EFF /* Amplify */; settings = {ATTRIBUTES = (Required, ); }; };
+		800665052ABBD8BD00368EFF /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 800665032ABBD8BB00368EFF /* amplifyconfiguration.json */; };
+		800665062ABBD8BD00368EFF /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 800665042ABBD8BC00368EFF /* awsconfiguration.json */; };
+		800665082ABBD8ED00368EFF /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800665072ABBD8ED00368EFF /* Backend.swift */; };
+		8006650B2ABBF98C00368EFF /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 8006650A2ABBF98C00368EFF /* AWSCognitoAuthPlugin */; };
+		8006650E2ABD783D00368EFF /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 8006650D2ABD783D00368EFF /* AWSAPIPlugin */; };
+		800665102ABD783D00368EFF /* AWSCloudWatchLoggingPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 8006650F2ABD783D00368EFF /* AWSCloudWatchLoggingPlugin */; };
+		800665122ABD783D00368EFF /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 800665112ABD783D00368EFF /* AWSDataStorePlugin */; };
+		800665142ABD783D00368EFF /* AWSLocationGeoPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 800665132ABD783D00368EFF /* AWSLocationGeoPlugin */; };
+		DAE4160EAB9D53BDC13D7C1A /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = BBED099C1C4A581C35CF5233 /* awsconfiguration.json */; };
+		F6857C86E67C91F062ADA71C /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 9933917D9D3B5E8584C0E440 /* amplifyconfiguration.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		800664E02ABBD20900368EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800664C72ABBD20400368EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800664CE2ABBD20500368EFF;
+			remoteInfo = cloudResumeApp;
+		};
+		800664EA2ABBD20900368EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800664C72ABBD20400368EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800664CE2ABBD20500368EFF;
+			remoteInfo = cloudResumeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		800664CF2ABBD20500368EFF /* cloudResumeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudResumeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		800664D22ABBD20500368EFF /* cloudResumeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudResumeAppApp.swift; sourceTree = "<group>"; };
+		800664D42ABBD20500368EFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		800664D62ABBD20900368EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		800664D92ABBD20900368EFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		800664DF2ABBD20900368EFF /* cloudResumeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cloudResumeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		800664E32ABBD20900368EFF /* cloudResumeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudResumeAppTests.swift; sourceTree = "<group>"; };
+		800664E92ABBD20900368EFF /* cloudResumeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cloudResumeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		800664ED2ABBD20900368EFF /* cloudResumeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudResumeAppUITests.swift; sourceTree = "<group>"; };
+		800664EF2ABBD20900368EFF /* cloudResumeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudResumeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		800664FC2ABBD24200368EFF /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		800664FE2ABBD26000368EFF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		800665032ABBD8BB00368EFF /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		800665042ABBD8BC00368EFF /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		800665072ABBD8ED00368EFF /* Backend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+		8006650C2ABD17AE00368EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9933917D9D3B5E8584C0E440 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		BBED099C1C4A581C35CF5233 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		800664CC2ABBD20500368EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800665142ABD783D00368EFF /* AWSLocationGeoPlugin in Frameworks */,
+				8006650E2ABD783D00368EFF /* AWSAPIPlugin in Frameworks */,
+				800665102ABD783D00368EFF /* AWSCloudWatchLoggingPlugin in Frameworks */,
+				800665022ABBD84000368EFF /* Amplify in Frameworks */,
+				800665122ABD783D00368EFF /* AWSDataStorePlugin in Frameworks */,
+				8006650B2ABBF98C00368EFF /* AWSCognitoAuthPlugin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800664DC2ABBD20900368EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800664E62ABBD20900368EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		800664C62ABBD20400368EFF = {
+			isa = PBXGroup;
+			children = (
+				800665032ABBD8BB00368EFF /* amplifyconfiguration.json */,
+				800665042ABBD8BC00368EFF /* awsconfiguration.json */,
+				800664D12ABBD20500368EFF /* cloudResumeApp */,
+				800664E22ABBD20900368EFF /* cloudResumeAppTests */,
+				800664EC2ABBD20900368EFF /* cloudResumeAppUITests */,
+				800664D02ABBD20500368EFF /* Products */,
+				E1E9AF9073E22ECFBCF7C0C2 /* AmplifyConfig */,
+				800665092ABBF98C00368EFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		800664D02ABBD20500368EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800664CF2ABBD20500368EFF /* cloudResumeApp.app */,
+				800664DF2ABBD20900368EFF /* cloudResumeAppTests.xctest */,
+				800664E92ABBD20900368EFF /* cloudResumeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800664D12ABBD20500368EFF /* cloudResumeApp */ = {
+			isa = PBXGroup;
+			children = (
+				8006650C2ABD17AE00368EFF /* Info.plist */,
+				800664FC2ABBD24200368EFF /* Note.swift */,
+				800664FE2ABBD26000368EFF /* UserData.swift */,
+				800664D22ABBD20500368EFF /* cloudResumeAppApp.swift */,
+				800665072ABBD8ED00368EFF /* Backend.swift */,
+				800664D42ABBD20500368EFF /* ContentView.swift */,
+				800664D62ABBD20900368EFF /* Assets.xcassets */,
+				800664D82ABBD20900368EFF /* Preview Content */,
+			);
+			path = cloudResumeApp;
+			sourceTree = "<group>";
+		};
+		800664D82ABBD20900368EFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				800664D92ABBD20900368EFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		800664E22ABBD20900368EFF /* cloudResumeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				800664E32ABBD20900368EFF /* cloudResumeAppTests.swift */,
+			);
+			path = cloudResumeAppTests;
+			sourceTree = "<group>";
+		};
+		800664EC2ABBD20900368EFF /* cloudResumeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				800664ED2ABBD20900368EFF /* cloudResumeAppUITests.swift */,
+				800664EF2ABBD20900368EFF /* cloudResumeAppUITestsLaunchTests.swift */,
+			);
+			path = cloudResumeAppUITests;
+			sourceTree = "<group>";
+		};
+		800665092ABBF98C00368EFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1E9AF9073E22ECFBCF7C0C2 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				BBED099C1C4A581C35CF5233 /* awsconfiguration.json */,
+				9933917D9D3B5E8584C0E440 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800664CE2ABBD20500368EFF /* cloudResumeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800664F32ABBD20900368EFF /* Build configuration list for PBXNativeTarget "cloudResumeApp" */;
+			buildPhases = (
+				800664CB2ABBD20500368EFF /* Sources */,
+				800664CC2ABBD20500368EFF /* Frameworks */,
+				800664CD2ABBD20500368EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cloudResumeApp;
+			packageProductDependencies = (
+				800665012ABBD84000368EFF /* Amplify */,
+				8006650A2ABBF98C00368EFF /* AWSCognitoAuthPlugin */,
+				8006650D2ABD783D00368EFF /* AWSAPIPlugin */,
+				8006650F2ABD783D00368EFF /* AWSCloudWatchLoggingPlugin */,
+				800665112ABD783D00368EFF /* AWSDataStorePlugin */,
+				800665132ABD783D00368EFF /* AWSLocationGeoPlugin */,
+			);
+			productName = cloudResumeApp;
+			productReference = 800664CF2ABBD20500368EFF /* cloudResumeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		800664DE2ABBD20900368EFF /* cloudResumeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800664F62ABBD20900368EFF /* Build configuration list for PBXNativeTarget "cloudResumeAppTests" */;
+			buildPhases = (
+				800664DB2ABBD20900368EFF /* Sources */,
+				800664DC2ABBD20900368EFF /* Frameworks */,
+				800664DD2ABBD20900368EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800664E12ABBD20900368EFF /* PBXTargetDependency */,
+			);
+			name = cloudResumeAppTests;
+			productName = cloudResumeAppTests;
+			productReference = 800664DF2ABBD20900368EFF /* cloudResumeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		800664E82ABBD20900368EFF /* cloudResumeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800664F92ABBD20900368EFF /* Build configuration list for PBXNativeTarget "cloudResumeAppUITests" */;
+			buildPhases = (
+				800664E52ABBD20900368EFF /* Sources */,
+				800664E62ABBD20900368EFF /* Frameworks */,
+				800664E72ABBD20900368EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800664EB2ABBD20900368EFF /* PBXTargetDependency */,
+			);
+			name = cloudResumeAppUITests;
+			productName = cloudResumeAppUITests;
+			productReference = 800664E92ABBD20900368EFF /* cloudResumeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800664C72ABBD20400368EFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					800664CE2ABBD20500368EFF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					800664DE2ABBD20900368EFF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 800664CE2ABBD20500368EFF;
+					};
+					800664E82ABBD20900368EFF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 800664CE2ABBD20500368EFF;
+					};
+				};
+			};
+			buildConfigurationList = 800664CA2ABBD20400368EFF /* Build configuration list for PBXProject "cloudResumeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 800664C62ABBD20400368EFF;
+			packageReferences = (
+				800665002ABBD84000368EFF /* XCRemoteSwiftPackageReference "amplify-swift" */,
+			);
+			productRefGroup = 800664D02ABBD20500368EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800664CE2ABBD20500368EFF /* cloudResumeApp */,
+				800664DE2ABBD20900368EFF /* cloudResumeAppTests */,
+				800664E82ABBD20900368EFF /* cloudResumeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800664CD2ABBD20500368EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800664DA2ABBD20900368EFF /* Preview Assets.xcassets in Resources */,
+				800664D72ABBD20900368EFF /* Assets.xcassets in Resources */,
+				800665062ABBD8BD00368EFF /* awsconfiguration.json in Resources */,
+				800665052ABBD8BD00368EFF /* amplifyconfiguration.json in Resources */,
+				DAE4160EAB9D53BDC13D7C1A /* awsconfiguration.json in Resources */,
+				F6857C86E67C91F062ADA71C /* amplifyconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800664DD2ABBD20900368EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800664E72ABBD20900368EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800664CB2ABBD20500368EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800664D52ABBD20500368EFF /* ContentView.swift in Sources */,
+				800664D32ABBD20500368EFF /* cloudResumeAppApp.swift in Sources */,
+				800664FF2ABBD26000368EFF /* UserData.swift in Sources */,
+				800664FD2ABBD24200368EFF /* Note.swift in Sources */,
+				800665082ABBD8ED00368EFF /* Backend.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800664DB2ABBD20900368EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800664E42ABBD20900368EFF /* cloudResumeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800664E52ABBD20900368EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800664EE2ABBD20900368EFF /* cloudResumeAppUITests.swift in Sources */,
+				800664F02ABBD20900368EFF /* cloudResumeAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		800664E12ABBD20900368EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800664CE2ABBD20500368EFF /* cloudResumeApp */;
+			targetProxy = 800664E02ABBD20900368EFF /* PBXContainerItemProxy */;
+		};
+		800664EB2ABBD20900368EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800664CE2ABBD20500368EFF /* cloudResumeApp */;
+			targetProxy = 800664EA2ABBD20900368EFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		800664F12ABBD20900368EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
+			};
+			name = Debug;
+		};
+		800664F22ABBD20900368EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		800664F42ABBD20900368EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cloudResumeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z23MCKV223;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cloudResumeApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aws.cloudResumeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800664F52ABBD20900368EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cloudResumeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z23MCKV223;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cloudResumeApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aws.cloudResumeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		800664F72ABBD20900368EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z23MCKV223;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aws.cloudResumeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cloudResumeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cloudResumeApp";
+			};
+			name = Debug;
+		};
+		800664F82ABBD20900368EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z23MCKV223;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aws.cloudResumeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cloudResumeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cloudResumeApp";
+			};
+			name = Release;
+		};
+		800664FA2ABBD20900368EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z23MCKV223;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aws.cloudResumeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cloudResumeApp;
+			};
+			name = Debug;
+		};
+		800664FB2ABBD20900368EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z23MCKV223;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aws.cloudResumeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cloudResumeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800664CA2ABBD20400368EFF /* Build configuration list for PBXProject "cloudResumeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800664F12ABBD20900368EFF /* Debug */,
+				800664F22ABBD20900368EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800664F32ABBD20900368EFF /* Build configuration list for PBXNativeTarget "cloudResumeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800664F42ABBD20900368EFF /* Debug */,
+				800664F52ABBD20900368EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800664F62ABBD20900368EFF /* Build configuration list for PBXNativeTarget "cloudResumeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800664F72ABBD20900368EFF /* Debug */,
+				800664F82ABBD20900368EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800664F92ABBD20900368EFF /* Build configuration list for PBXNativeTarget "cloudResumeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800664FA2ABBD20900368EFF /* Debug */,
+				800664FB2ABBD20900368EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		800665002ABBD84000368EFF /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.17.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		800665012ABBD84000368EFF /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 800665002ABBD84000368EFF /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+		8006650A2ABBF98C00368EFF /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 800665002ABBD84000368EFF /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		8006650D2ABD783D00368EFF /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 800665002ABBD84000368EFF /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+		8006650F2ABD783D00368EFF /* AWSCloudWatchLoggingPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 800665002ABBD84000368EFF /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCloudWatchLoggingPlugin;
+		};
+		800665112ABD783D00368EFF /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 800665002ABBD84000368EFF /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSDataStorePlugin;
+		};
+		800665132ABD783D00368EFF /* AWSLocationGeoPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 800665002ABBD84000368EFF /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSLocationGeoPlugin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 800664C72ABBD20400368EFF /* Project object */;
+}
